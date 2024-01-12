@@ -1,13 +1,13 @@
 package access;
 
-public class Speaker {
-    private int volume;
+public class Speaker {      //클래스 레벨
+    private int volume;     //필드
 
-    Speaker(int volume) {
+    Speaker(int volume) {   //생성자
         this.volume = volume;
     }
 
-    void volumeUp() {
+    void volumeUp() {       //메서드
         if (volume >= 100) {
             System.out.println("음량을 증가할 수 없습니다. 최대 음량입니다.");
         } else {
