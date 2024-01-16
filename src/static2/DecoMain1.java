@@ -9,4 +9,5 @@ public class DecoMain1 {
         System.out.println("before: " + s);
         System.out.println("after: " + deco);
     }
+
 }
