@@ -5,9 +5,11 @@ public class SoundFlyMain {
         Dog dog = new Dog();
         Bird bird = new Bird();
         Chicken chicken = new Chicken();
+
         soundAnimal(dog);
         soundAnimal(bird);
         soundAnimal(chicken);
+
         flyAnimal(bird);
         flyAnimal(chicken);
     }
